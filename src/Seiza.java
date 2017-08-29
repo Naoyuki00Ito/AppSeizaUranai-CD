@@ -322,39 +322,51 @@ public class Seiza {
 		System.out.print(num +"位は天秤座です！");
 		if(num == 1){
 			System.out.println("ラッキーアイテム：腕時計");
+			System.out.println("スズメバチには気をつけよう！！");
 		}
 		else if(num == 2){
 			System.out.println("ラッキーアイテム：android端末");
+			System.out.println("ただし雨漏りには気を付けること");
 		}
 		else if(num == 3){
 			System.out.println("ラッキーアイテム：りんご");
+			System.out.println("ただし足元には気を付けること");
 		}
 		else if(num == 4){
 			System.out.println("ラッキーアイテム：100円玉");
+			System.out.println("ただし後ろには気を付けること");
 		}
 		else if(num == 5){
 			System.out.println("ラッキーアイテム：千円札");
+			System.out.println("階段に気を付けること");
 		}
 		else if(num == 6){
 			System.out.println("ラッキーアイテム：一万円札");
+			System.out.println("赤の扉には気を付けること");
 		}
 		else if(num == 7){
 			System.out.println("ラッキーアイテム：赤のボールペン");
+			System.out.println("スクワットをすると運気アップ");
 		}
 		else if(num == 8){
 			System.out.println("ラッキーアイテム：イヤホン");
+			System.out.println("屈伸をすると運気アップ");
 		}
 		else if(num == 9){
 			System.out.println("ラッキーアイテム：色鉛筆");
+			System.out.println("ジョギングをすると運気アップ");
 		}
 		else if(num == 10){
 			System.out.println("ラッキーアイテム：ブランケット");
+			System.out.println("ゲームをすると運気アップ");
 		}
 		else if(num == 11){
 			System.out.println("ラッキーアイテム：文鎮");
+			System.out.println("習字をすると運気アップ");
 		}
 		else if(num == 12){
 			System.out.println("ラッキーアイテム：アニマルビデオ");
+			System.out.println("頑張って");
 		}
 	}
 
