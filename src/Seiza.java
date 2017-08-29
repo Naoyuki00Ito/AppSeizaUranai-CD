@@ -239,6 +239,7 @@ public class Seiza {
 		switch(num){
 		case 1 :
 			System.out.println("ラッキーアイテムは、帽子");
+
 			break;
 		case 2 :
 			System.out.println("ラッキーアイテムは、財布");
@@ -273,6 +274,13 @@ public class Seiza {
 		case 12 :
 			System.out.println("ラッキーアイテムは、本");
 			break;
+		}
+
+			if(num <= 6){
+				System.out.println("ただし集合時間など、時間に気を付けること！！");
+			}
+			if(num >= 7){
+				System.out.println("ただし本の整理など、身の回りの整理整頓をすると運気アップ！！");
 		}
 
 	}
