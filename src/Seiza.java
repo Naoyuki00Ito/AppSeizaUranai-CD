@@ -624,6 +624,12 @@ public class Seiza {
 		}else if(num == 12){
 			System.out.println("ラッキーアイテムはさつま揚げです");
 		}
+		if(num <= 6){
+			System.out.println("ただしPDTには気をつけること！！！");
+		}
+		if(num >= 7){
+			System.out.println("ただしPDTをからかうと運気アップ！！！");
+		}
 
 	}
 
