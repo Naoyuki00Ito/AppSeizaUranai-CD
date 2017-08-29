@@ -31,6 +31,71 @@ public class Seiza {
 
 	public static void taurus(int num){
 		//牡牛座
+		System.out.println("牡牛座のあなたの運勢は");
+		switch(num){
+
+		case 1  : System.out.println("1位です");
+		          System.out.println("今日一日幸運です");
+		          System.out.println("ラッキーアイテムはハンカチです");
+		          break;
+
+		case 2  : System.out.println("2位です");
+                  System.out.println("良いことあるかも");
+		          System.out.println("ラッキーアイテムはティッシュです");
+		          break;
+
+		case 3  : System.out.println("3位です");
+                  System.out.println("まあまあかな");
+		          System.out.println("ラッキーアイテムは目薬です");
+		          break;
+
+		case 4  : System.out.println("4位です");
+                  System.out.println("微妙かな");
+		          System.out.println("ラッキーアイテムは腕時計です");
+		          break;
+
+		case 5  : System.out.println("5位です");
+                  System.out.println("普通");
+		          System.out.println("ラッキーアイテムはメモ帳です");
+		          break;
+
+		case 6  : System.out.println("6位です");
+                  System.out.println("悪くなく良くもない");
+		          System.out.println("ラッキーアイテムはイヤホンです");
+		          break;
+
+		case 7  : System.out.println("7位です");
+                  System.out.println("普通よりは低い");
+		          System.out.println("ラッキーアイテムは本です");
+		          break;
+
+		case 8  : System.out.println("8位です");
+		          System.out.println("悪いよりマシ");
+		          System.out.println("ラッキーアイテムはゴムです");
+		          break;
+
+		case 9  : System.out.println("9位です");
+		          System.out.println("まあ低いかな");
+		          System.out.println("ラッキーアイテムはネックレスです");
+		          break;
+
+		case 10 : System.out.println("10位です");
+		          System.out.println("ドンマイ");
+		          System.out.println("ラッキーアイテムはミサンガです");
+		          break;
+
+		case 11 : System.out.println("11位です");
+		          System.out.println("ご愁傷様です");
+		          System.out.println("ラッキーアイテムは包帯です");
+		          break;
+
+		case 12 : System.out.println("12位です");
+		          System.out.println("明日があるさ");
+		          System.out.println("ラッキーアイテムはお守りです");
+		          break;
+		}
+		if(num >= 6){System.out.println("ただし蜂には気を付けよう");}
+		if(num <= 7){System.out.println("ストレッチをして運気アップ");}
 
 	}
 
