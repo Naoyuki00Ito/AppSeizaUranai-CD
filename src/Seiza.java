@@ -328,6 +328,12 @@ public class Seiza {
 		else if(num == 12){
 			System.out.println("ラッキーアイテム：マニックパニックのカラーワックス");
 		}
+		if(num <= 6){
+			System.out.println("ただしあざとい女には気をつけること！！！");
+		}
+		if(num >= 7){
+			System.out.println("ただし男っぽい女と話すと運気アップ！！！");
+		}
 	}
 	public static void libra(int num){
 		//天秤座
