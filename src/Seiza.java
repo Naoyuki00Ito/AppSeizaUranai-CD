@@ -237,6 +237,12 @@ public class Seiza {
 		else if(num == 12){
 			System.out.println("ラッキーアイテム：油性ペン");
 		}
+		if(num <= 6){
+			System.out.println("ただし設定が良さそうなジャグラーにはきをつけること！！");
+		}
+		if(num >= 7){
+			System.out.println("ただしものまねをすると運気アップ！！");
+		}
 	}
 
 	public static void leo(int num){
