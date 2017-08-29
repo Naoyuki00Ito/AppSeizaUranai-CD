@@ -50,44 +50,55 @@ public class Seiza {
 
 	public static void aries(int num){
 		//牡羊座
-		System.out.print(num +"位は牡羊座です！");
+System.out.print(num +"位は牡羊座です！");
 		switch(num){
 		case 1:
-
 			System.out.println("人生に影響を及ぼす人との出会いが訪れます");
+			System.out.println("ただしやりすぎには気を付けましょう");
 			break;
 		case 2:
 			System.out.println("幸福の女神が微笑む素敵な1日になります");
+			System.out.println("ただしハメを外しすぎないようにしましょう");
 			break;
 		case 3:
 			System.out.println("オープンな態度で過ごすのが大事");
+			System.out.println("ただしオープンしすぎないこと");
 			break;
 		case 4:
 			System.out.println("暮らしの中に新たなものを取り入れると吉です");
+			System.out.println("ただしお金を使いすぎないこと");
 			break;
 		case 5:
 			System.out.println("胸がときめくシーンに遭遇する日になります");
+			System.out.println("ただし過度な期待はしないこと");
 			break;
 		case 6:
 			System.out.println("胸がときめくようなものを見つけられそう");
+			System.out.println("ただしあまり探しすぎないこと");
 			break;
 		case 7:
 			System.out.println("イメージチェンジに適している日になります");
+			System.out.println("いろいろ服を変えて運気アップ");
 			break;
 		case 8:
 			System.out.println("刺激を求めて冒険をしたくなりそう");
+			System.out.println("消しゴムもって運気アップ");
 			break;
 		case 9:
 			System.out.println("刺激や変化を求める日になりそう");
+			System.out.println("水を飲んで運気アップ");
 			break;
 		case 10:
 			System.out.println("無理な約束をしないように注意");
+			System.out.println("お守りもって運気アップ");
 			break;
 		case 11:
 			System.out.println("楽しみを見つけて上手に気分転換を");
+			System.out.println("リンゴをもって運気アップ");
 			break;
 		case 12:
 			System.out.println("プラス思考でいきましょう");
+			System.out.println("金を集めて運気アップ");
 			break;
 		}
 	}
